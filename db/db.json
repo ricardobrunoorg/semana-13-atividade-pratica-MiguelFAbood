@@ -1,18 +1,122 @@
 {
-  "usuarios": [
+  "comunidades": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "titulo": "Fighters do Street Fighter 6",
+      "descricaoCurta": "Espaço para treinar matchups e organizar lobbies no SF6.",
+      "descricaoCompleta": "Uma comunidade dedicada para compartilhar tech traps, frame data e organizar campeonatos semanais. Foco em jogadoras de todos os níveis que querem melhorar seu jogo neutro e agressividade.",
+      "imagem": "https://placehold.co/400x200/6a0dad/ffffff?text=SF6+Fighters",
+      "categoria": "Fighting Games",
+      "acesso": "Público",
+      "tags": ["SF6", "Competitivo", "Iniciantes"],
+      "destaque": true
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "titulo": "KOF 2002 UM: Rushdown e Buffers",
+      "descricaoCurta": "Para quem foca em pressão e otimização de barras.",
+      "descricaoCompleta": "Discussões avançadas sobre team building eficiente (sem gastadores de barra em excesso) e execução técnica. Excelente lugar para treinar aquele buffer perfeito de 632146 do Kusanagi.",
+      "imagem": "https://placehold.co/400x200/d32f2f/ffffff?text=KOF+2002+UM",
+      "categoria": "Fighting Games",
+      "acesso": "Público",
+      "tags": ["KOF", "Arcade", "Hardcore"],
+      "destaque": true
+    },
+    {
+      "id": 3,
+      "titulo": "Guilty Gear Strive: Heaven",
+      "descricaoCurta": "Lets Rock! Tudo sobre a série Guilty Gear.",
+      "descricaoCompleta": "Se você prefere arquétipos agressivos como Sol Badguy em vez de zoners, este é o seu lugar. Compartilhe combos, setups de Roman Cancel e memes da comunidade.",
+      "imagem": "https://placehold.co/400x200/e64a19/ffffff?text=Guilty+Gear",
+      "categoria": "Fighting Games",
+      "acesso": "Privado",
+      "tags": ["Anime Fighter", "GGST", "Agressivo"],
+      "destaque": false
+    },
+    {
+      "id": 4,
+      "titulo": "Valorant: Dicas e Táticas",
+      "descricaoCurta": "Encontre sua duo e suba de elo no Valorant.",
+      "descricaoCompleta": "Comunidade focada em FPS tático. Discutimos composições de agentes, lineups, execuções de bomb e organizamos treinos diários para melhorar a mira e o game sense.",
+      "imagem": "https://placehold.co/400x200/ff4655/ffffff?text=Valorant",
+      "categoria": "FPS",
+      "acesso": "Público",
+      "tags": ["FPS", "Riot", "Tático"],
+      "destaque": true
+    },
+    {
+      "id": 5,
+      "titulo": "Baldur's Gate 3 - Lore & RPG",
+      "descricaoCurta": "Rolagens de dados e romances em Faerûn.",
+      "descricaoCompleta": "Para as amantes de RPG de mesa e CRPGs. Compartilhe suas builds mais absurdas, decisões difíceis da história e crie grupos para campanhas multiplayer focadas em interpretação.",
+      "imagem": "https://placehold.co/400x200/5d4037/ffffff?text=Baldurs+Gate",
+      "categoria": "RPG",
+      "acesso": "Público",
+      "tags": ["CRPG", "História", "Co-op"],
+      "destaque": false
+    },
+    {
+      "id": 6,
+      "titulo": "The Sims 4: Construtoras",
+      "descricaoCurta": "Mostre suas construções e mods favoritos.",
+      "descricaoCompleta": "O foco aqui não é a gameplay tradicional, mas sim a arquitetura e a customização. Compartilhe links para os melhores Custom Contents (CC) e desafios de construção.",
+      "imagem": "https://placehold.co/400x200/388e3c/ffffff?text=The+Sims",
+      "categoria": "Simulação",
+      "acesso": "Público",
+      "tags": ["Casual", "Mods", "Construção"],
+      "destaque": false
+    },
+    {
+      "id": 7,
+      "titulo": "Stardew Valley Coop",
+      "descricaoCurta": "Encontre parceiras para administrar sua fazenda.",
+      "descricaoCompleta": "Precisa de ajuda para terminar o Centro Comunitário? Quer alguém para focar na mineração enquanto você cuida da lavoura? Entre na comunidade e encontre sua parceira de fazenda.",
+      "imagem": "https://placehold.co/400x200/fbc02d/000000?text=Stardew+Valley",
+      "categoria": "Simulação",
+      "acesso": "Público",
+      "tags": ["Co-op", "Cozy", "Farming"],
+      "destaque": false
+    },
+    {
+      "id": 8,
+      "titulo": "League of Legends: SoloQ",
+      "descricaoCurta": "Sobrevivendo às ranqueadas juntas.",
+      "descricaoCompleta": "Comunidade focada em aprendizado contínuo, controle de wave, visão de mapa e inteligência emocional para lidar com a SoloQ. Venha procurar seu duo no bot.",
+      "imagem": "https://placehold.co/400x200/1976d2/ffffff?text=League+of+Legends",
+      "categoria": "MOBA",
+      "acesso": "Público",
+      "tags": ["MOBA", "Competitivo", "PC"],
+      "destaque": false
+    },
+    {
+      "id": 9,
+      "titulo": "Overwatch 2: Suportes Unidos",
+      "descricaoCurta": "Dicas de posicionamento e game sense.",
+      "descricaoCompleta": "Grupo focado principalmente na role de suporte. Como se manter viva sob pressão, gerenciar ultimates e garantir a vitória para sua equipe no Hero Shooter da Blizzard.",
+      "imagem": "https://placehold.co/400x200/f57c00/ffffff?text=Overwatch+2",
+      "categoria": "FPS",
+      "acesso": "Privado",
+      "tags": ["Hero Shooter", "Teamplay"],
+      "destaque": false
+    },
+    {
+      "id": 10,
+      "titulo": "Dead by Daylight BR",
+      "descricaoCurta": "Sobreviventes e Assassinas focadas no loop.",
+      "descricaoCompleta": "Aprenda a fazer os loops perfeitos, prever mindgames da killer e descobrir as melhores builds de perks. Jogatinas personalizadas nos finais de semana.",
+      "imagem": "https://placehold.co/400x200/424242/ffffff?text=Dead+by+Daylight",
+      "categoria": "Terror",
+      "acesso": "Público",
+      "tags": ["Multiplayer", "Terror", "Looping"],
+      "destaque": true
     }
+  ],
+  "categorias": [
+    { "id": 1, "nome": "Fighting Games" },
+    { "id": 2, "nome": "FPS" },
+    { "id": 3, "nome": "RPG" },
+    { "id": 4, "nome": "MOBA" },
+    { "id": 5, "nome": "Simulação" },
+    { "id": 6, "nome": "Terror" }
   ]
 }
